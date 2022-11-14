@@ -67,7 +67,7 @@ angular
 
               if (
                 tinyInstance &&
-                !tinyInstance.settings.readonly &&
+                !tinyInstance.readonly &&
                 tinyInstance.getDoc()
               ) {
                 tinyInstance.getBody().setAttribute("contenteditable", true);
